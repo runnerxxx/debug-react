@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-01-28 12:06:28
+ * @LastEditTime: 2021-01-29 12:14:47
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /debug-react/config/paths.js
+ */
 'use strict';
 
 const path = require('path');
@@ -8,6 +16,8 @@ const getPublicUrlOrPath = require('react-dev-utils/getPublicUrlOrPath');
 // https://github.com/facebook/create-react-app/issues/637
 const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
+
+console.log('resolveApp-----', resolveApp('.'))
 
 // We use `PUBLIC_URL` environment variable or "homepage" field to infer
 // "public path" at which the app is served.

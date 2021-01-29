@@ -4466,15 +4466,29 @@ eslint-plugin-jsx-a11y@^6.3.1:
     jsx-ast-utils "^3.1.0"
     language-tags "^1.0.5"
 
-eslint-plugin-no-for-of-loops@^1.0.1:
+eslint-plugin-no-for-of-loops@1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-no-for-of-loops/-/eslint-plugin-no-for-of-loops-1.0.1.tgz#2ee3732d50c642b8d1bfacedbfe3b28f86222369"
-  integrity sha512-uCotzBHt2W+HbLw2srRmqDJHOPbJGzeVLstKh8YyxS3ppduq2P50qdpJfHKoD+UGbnqA/zhy8NRgPH6p0y8bnA==
+  resolved "http://npm.laiye.com/eslint-plugin-no-for-of-loops/-/eslint-plugin-no-for-of-loops-1.0.1.tgz#2ee3732d50c642b8d1bfacedbfe3b28f86222369"
+  integrity sha1-LuNzLVDGQrjRv6ztv+Oyj4YiI2k=
+
+eslint-plugin-no-function-declare-after-return@1.1.0:
+  version "1.1.0"
+  resolved "http://npm.laiye.com/eslint-plugin-no-function-declare-after-return/-/eslint-plugin-no-function-declare-after-return-1.1.0.tgz#f79b1c9cf12169f91c239fc1e59e1b9bbfa12561"
+  integrity sha1-95scnPEhafkcI5/B5Z4bm7+hJWE=
 
 eslint-plugin-react-hooks@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.2.0.tgz#8c229c268d468956334c943bb45fc860280f5556"
   integrity sha512-623WEiZJqxR7VdxFCKLI6d6LLpwJkGPYKODnkH3D7WpOG5KM8yWueBd8TLsNAetEJNF5iJmolaAKO3F8yzyVBQ==
+
+eslint-plugin-react-internal@0.0.1-security:
+  version "0.0.1-security"
+  resolved "http://npm.laiye.com/eslint-plugin-react-internal/-/eslint-plugin-react-internal-0.0.1-security.tgz#bd732dae2fda2559c99db294955376673eca5a8b"
+  integrity sha1-vXMtri/aJVnJnbKUlVN2Zz7KWos=
+
+"eslint-plugin-react-internal@link:./src/react/scripts/eslint-rules":
+  version "0.0.0"
+  uid ""
 
 eslint-plugin-react@^7.21.5:
   version "7.21.5"
@@ -8951,14 +8965,6 @@ react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
-
-react@^17.0.1:
-  version "17.0.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
-  integrity sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
